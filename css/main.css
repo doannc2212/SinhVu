@@ -1,0 +1,163 @@
+/****************************Quotes****************************/
+.open-quote {
+  font-family: 'Pacifico', cursive;
+  font-size: 2em;
+}
+
+.quotes {
+  margin-top: 760px;
+  height: 480px;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+}
+
+.quotes>img {
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.quotes>div {
+  margin-left: 130px;
+  top: 160px;
+}
+
+/****************************Parallax Hover****************************/
+.mytilt {
+  filter: grayscale(0.5);
+  background-color: transparent;
+  height: 500px;
+  transition: 0.6s all;
+  transform-style: preserve-3d;
+  position: relative;
+  z-index: 3;
+}
+
+.gradient1 {
+  background-image: linear-gradient(45deg, #D31027, #EA384D);
+}
+
+.gradient2 {
+  background-image: linear-gradient(45deg, #FFAFBD, #ffc3a0);
+}
+
+.gradient3 {
+  background-image: linear-gradient(45deg, #36D1DC, #5B86E5);
+}
+
+.gradient4 {
+  background-image: linear-gradient(45deg, #FEAC5E, #C779D0, #fcb045);
+}
+
+.mytilt:hover {
+  filter: none;
+  box-shadow: 4px 4px 6px lightgray;
+  z-index: 4;
+}
+
+.mytilt>span {
+  top: 90px;
+  left: 55px;
+  position: absolute;
+}
+
+.tilt-title {
+  font-family: 'Pacifico', cursive;
+  transform: translateZ(50px);
+  position: absolute;
+  top: 170px;
+  left: 55px;
+}
+
+.tilt-icon {
+  font-size: 100px;
+  color: white;
+}
+
+.tilt-text {
+  top: 220px;
+  left: 55px;
+  position: absolute;
+  transform: translateZ(20px);
+  margin-right: 55px;
+  word-wrap: break-word;
+}
+
+/****************************Swiper****************************/
+.swiper-container {
+  width: 100%;
+  height: 95%;
+  cursor: grabbing;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #eee;
+  display: block;
+  justify-content: space-around;
+}
+
+.wrap-img-swiper {
+  overflow: hidden;
+  max-height: 80%;
+  max-width: 100%;
+  position: relative;
+  transition: 0.3s all;
+}
+
+.wrap-img-swiper:hover {
+  background-color: peachpuff;
+  transition: 0.3s all;
+}
+
+.img-swiper {
+  width: 100%;
+  transition: 0.3s all;
+}
+
+.wrap-img-swiper:hover>.img-swiper {
+  opacity: 0.15;
+  transition: 0.3s all;
+}
+
+.swiper-link>a {
+  background-color: black;
+  color: white;
+  opacity: 0.85;
+  font-size: 14px;
+  font-family: 'Roboto', cursive, sans-serif;
+  padding: 10px 16px;
+  transition: 0.3s all;
+  margin: 0px 10px;
+}
+
+.swiper-link {
+  display: none;
+  position: absolute;
+  top: 42%;
+  transform: translateY(-42%);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.wrap-img-swiper:hover>.swiper-link {
+  display: block;
+  transition: 0.3s all;
+}
+
+.title-swiper {
+  opacity: 0.85;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.text-swiper {
+  font-size: 0.8em;
+  opacity: 0.6;
+}
+
+/*********************************Boosttrap*********************************/

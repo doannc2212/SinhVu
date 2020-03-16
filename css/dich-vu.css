@@ -1,0 +1,215 @@
+h3 {
+  font-family: 'Pacifico', cursive;
+  font-size: 38px;
+  line-height: 60px;
+  font-weight: 400;
+}
+
+#wrap-bg-slider>img {
+  filter: blur(2px);
+  filter: saturate(95%);
+  filter: brightness(40%);
+}
+
+.parallax-slider>div {
+  position: relative;
+  cursor: context-menu;
+  width: 100%;
+  height: 760px
+}
+
+.bg-text-wrap {
+  padding-top: 200px;
+}
+
+.bg-text-wrap>h3 {
+  color: white;
+  word-wrap: normal;
+}
+
+.bg-text-wrap>span {
+  font-family: 'Roboto', cursive, sans-serif;
+  text-transform: none;
+  letter-spacing: 1px;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+  color: white;
+  opacity: 0.9;
+}
+
+.wrap-text-title>span {
+  font-family: 'Roboto', cursive, sans-serif;
+  text-transform: none;
+  letter-spacing: 1px;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #ffb200;
+}
+
+.wrap-text-title {
+  padding-top: 70px;
+}
+
+.wrap-text-title>p {
+  color: rgba(10, 10, 10, 0.65);
+  line-height: 31px;
+}
+
+.wrap-text-title>h3 {
+  opacity: 0.8;
+}
+
+.wrap-main-dv-img>img {
+  width: 100%;
+  height: 100%;
+}
+
+.wrap-main-dv-text>span {
+  font-family: 'Roboto', cursive, sans-serif;
+  text-transform: none;
+  letter-spacing: 1px;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+  opacity: 0.6;
+}
+
+.wrap-main-dv-text>p {
+  line-height: 31px;
+  letter-spacing: 0.3px;
+  opacity: 0.7;
+}
+
+button {
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 3px;
+  transition: 0.3s all;
+  padding: 8px 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 2px solid #ffb200;
+  background-color: #ffb200;
+  color: #f4f4f4;
+}
+
+.wrap-main-dv-text {
+  padding-top: 150px;
+}
+
+.wrap-main-dv-text>h3 {
+  opacity: 0.9;
+}
+
+.parallax-bg {
+  background-image: url("../img/cup_coffee_book_bed_45379_1920x1080.jpg");
+  z-index: 10;
+  height: 450px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.parallax-bg div {
+  padding-top: 65px;
+}
+
+.parallaxText span {
+  color: lightgray;
+  font-family: 'Roboto', cursive, sans-serif;
+  text-transform: none;
+  letter-spacing: 1px;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.parallaxMainText span {
+  color: lightgray;
+  font-family: 'Roboto', cursive, sans-serif;
+  text-transform: none;
+  letter-spacing: 1px;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.parallaxText h1 {
+  font-size: 100px;
+  font-weight: lighter;
+  font-family: 'Roboto', cursive, sans-serif;
+  color: #ffb200;
+}
+
+.parallaxMainText button {
+  color: white;
+  border: 2px solid white;
+  padding: 14px 20px;
+  font-size: 15px;
+  transition: 0.4s all;
+}
+
+.parallaxMainText button:hover {
+  color: black;
+  border: 2px solid #ffb200;
+}
+
+.underText {
+  font-family: 'Roboto', cursive, sans-serif;
+  text-transform: none;
+  letter-spacing: 0.6px;
+  font-size: 15px;
+  line-height: 30px;
+  color: gray;
+  font-weight: 100;
+  color: rgba(10, 10, 10, 0.65);
+}
+
+.underTitle {
+  font-size: 23px;
+  opacity: 0.8;
+  font-family: 'Roboto', cursive, sans-serif;
+  font-weight: 600;
+}
+
+.link-contact-bar {
+  color: white;
+  padding-top: 11px;
+  text-transform: uppercase;
+  padding-right: 0px;
+}
+
+.link-contact-bar i {
+  transition: 0.4s all;
+  padding-top: 4px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.link-contact-bar a {
+  color: white;
+  transition: 0.4s all;
+}
+
+.link-contact-bar:hover i {
+  opacity: 1.0;
+  transition: 0.4s all;
+  padding-left: 15px;
+  color: black;
+}
+
+.link-contact-bar:hover a {
+  padding-right: 10px;
+  margin-left: -10px;
+  color: black;
+}

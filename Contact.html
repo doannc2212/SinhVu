@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!--favicon-->
+  <link rel="shortcut icon" href="img/favicon31-1.png">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+
+  <!--Swiper-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/css/swiper.min.css">
+
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+  <!-- styles -->
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <link rel="stylesheet" href="css/contact.css" type="text/css">
+
+  <title>Liên Hệ</title>
+</head>
+
+<body>
+
+  <!--Navigation Bar-->
+  <nav class="navbar fluid-container fixed-top bg-light" id="navbar">
+    <div class="col-10 mx-auto">
+      <a class="navbar-brand float-left mx-0 px-0" href="Index.html"><img src="img/img-logo-fe.png"></a>
+      <div style="display: inline-flex" class="float-right">
+        <div class="px-3"><a href="Index.html" class="nav-link nav-hover px-0">Trang Chủ</a></div>
+        <div class="px-3"><a href="Gioi-Thieu.html" class="nav-link nav-hover px-0">Giới Thiệu</a></div>
+        <div class="px-3"><a href="Dich-Vu.html" class="nav-link nav-hover px-0">Dịch Vụ</a></div>
+        <div class="px-3"><a href="Index.html#sanpham" class="nav-link nav-hover px-0">Sản Phẩm</a></div>
+        <div class="px-3"><a href="Post.html" class="nav-link nav-hover px-0">Blog</a></div>
+        <div class="px-3"><a href="#" class="nav-link nav-active px-0">Liên Hệ</a></div>
+        <div class="row px-3">
+          <a href="https://vi-vn.facebook.com/sinhvujsc/" class="nav-link pr-2 nav-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://plus.google.com/u/0/+SinhvuJSC" class="nav-link pl-2 nav-icon"><i class="fab fa-google-plus-g"></i></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!--Content-->
+  <div class="fluid-container d-flex" style="height: 760px">
+    <!--Left-->
+    <div class="col-8 px-0 pt-5">
+      <div class="col-9 mx-auto pt-5 px-0">
+        <div class="inputWithIcon">
+          <input type="text" class="inputText mt-3" id="myName" required>
+          <i class="fa fa-dog fa-lg fa-fw" aria-hidden="true"></i>
+          <span class="floating-label">Tên của bạn</span>
+        </div>
+        <div class="inputWithIcon">
+          <input type="email" class="inputText mt-3" id="myEmail" required>
+          <i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
+          <span class="floating-label">Địa chỉ Email</span>
+        </div>
+        <div class="inputWithIcon">
+          <input type="text" class="inputText mt-3" id="myTitle" required>
+          <i class="fa fa-pen fa-lg fa-fw" aria-hidden="true"></i>
+          <span class="floating-label">Tiêu Đề:</span>
+        </div>
+        <div class="inputWithIcon">
+          <input type="text" class="inputText mt-3" id="myText" required>
+          <i class="fa fa-book fa-lg fa-fw" aria-hidden="true"></i>
+          <span class="floating-label">Thông điệp:</span>
+        </div>
+        <button onClick="checkValid()" type="submit" class="mt-5">Gửi đi</button>
+      </div>
+    </div>
+    <!--Right-->
+    <div class="col-4 px-0" style="margin-top: 68px">
+      <div class="col-11 px-0" style="padding-top: 100px">
+        <h3>Cùng cộng tác với Sinh Vũ</h3>
+        <p>Bằng sự tận tâm và chu đáo, chúng tôi luôn mong muốn được phục vụ quý khách tại Sinh Vũ.</p>
+        <p>Nếu bạn cần bất kỳ thông tin gì từ Sinh Vũ, hãy liên hệ với chúng tôi bằng biểu mẫu bên cạnh. Chúng tôi giải đáp thắc mắc trong thời gian sớm nhất.</p>
+        <p><b>Địa chỉ:</b> Số 38, ngõ 4, Trần Quý Kiên, Dịch Vọng, Cầu Giấy, Hà Nội, Việt Nam</p>
+        <p><b>Phone:</b> (+84)285858688 hoặc (+84) 8585 8688</p>
+      </div>
+    </div>
+  </div>
+
+  <!--maps-->
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5899.685521490857!2d106.67964441393678!3d10.837326920475972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1542087569803" width="100%" height="500" frameborder="0"
+    style="border:0" allowfullscreen></iframe>
+  <!--Footer-->
+  <footer>
+    <div style="height: 220px; background-color: #333132" class="concept-footer">
+      <div class="concept-footer col-10 row mx-auto">
+        <div class="col-4">
+          <span>Địa chỉ</span>
+          <p class="pt-3">Số 38, ngõ 4, Trần Quý Kiên, Dịch Vọng, Cầu Giấy, Hà Nội</p>
+        </div>
+        <div class="col-3">
+          <span>Điện Thoại</span>
+          <p class="pt-3">(+84) 8585 8688</p>
+        </div>
+        <div class="col-3">
+          <span>Email</span>
+          <p class="pt-3">contact@example.com</p>
+        </div>
+        <div class="col-2">
+          <span>Fax</span>
+          <p class="pt-3">(+84) 8588 8881</p>
+        </div>
+      </div>
+    </div>
+    <div style="height: 60px; background-color: #3a3a3a; border-top: 1px solid rgba(255,255,255,0.2)">
+      <div class="col-10 mx-auto copyright">
+        <span><i class="far fa-copyright"></i> PRO201 - Cocsaigon</span>
+      </div>
+    </div>
+  </footer>
+  <!--Script-->
+
+  <!--myJS-->
+  <script type="text/javascript" src="js/custom.js"></script>
+  <script type="text/javascript" src="js/contact.js"></script>
+
+  <!--Swiper-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/swiper.min.js"></script>
+
+  <!--Vanilla Tilt-->
+  <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
+
+  <!--BootstrapJS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
